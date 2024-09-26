@@ -56,7 +56,7 @@ public class AddEventModal extends JDialog {
         //Setup panels
         JPanel panel = new JPanel();
         infoCollectorPanel = new JPanel();
-        infoCollectorPanel.setPreferredSize(new Dimension(800, INFO_PANEL_HEIGHT));
+        infoCollectorPanel.setPreferredSize(new Dimension(PANEL_WIDTH, INFO_PANEL_HEIGHT));
         infoCollectorPanel.setBackground(Color.LIGHT_GRAY);
 
         //Setup dropdown box
