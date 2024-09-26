@@ -1,4 +1,6 @@
+//Completable Interface
+
 public interface Completable {
-    public void complete();
-    public boolean isComplete();
+    void complete();
+    boolean isComplete();
 }
